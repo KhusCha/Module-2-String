@@ -1,0 +1,24 @@
+package coding.ninja;
+
+import java.util.Scanner;
+
+public class Test {		
+	
+	
+	public static void main(String[] args) {
+		// Print all substrings of a given String, Method-1
+		 String str ="pqrs";
+		 
+		 for(int len =1;len<=str.length();len++) {
+			 
+			 for(int start =0;start<=str.length()-len;start++) {
+				 
+				 int end = start+len-1;
+				 System.out.println(str.substring(start, end+1));
+			 }
+		 }
+		 		
+		
+ }  
+		
+}	
